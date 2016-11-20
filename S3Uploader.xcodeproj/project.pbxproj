@@ -13,6 +13,8 @@
 		0E17FE591DE1E76F00E07A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E17FE581DE1E76F00E07A57 /* Assets.xcassets */; };
 		0E17FE5C1DE1E76F00E07A57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E17FE5A1DE1E76F00E07A57 /* LaunchScreen.storyboard */; };
 		0E17FE671DE1E76F00E07A57 /* S3UploaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E17FE661DE1E76F00E07A57 /* S3UploaderTests.swift */; };
+		0E17FE721DE1EA6B00E07A57 /* UploadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E17FE711DE1EA6B00E07A57 /* UploadOperation.swift */; };
+		0E6398C61DE1F3B900594D42 /* pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6398C51DE1F3B900594D42 /* pic.png */; };
 		959F255ADEDA9EAF26D964FA /* Pods_S3Uploader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3D7F282B67F465D2B067EB /* Pods_S3Uploader.framework */; };
 		A567958106548FC2D84F39C7 /* Pods_S3UploaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39540E294516C7DF3F9525D2 /* Pods_S3UploaderTests.framework */; };
 /* End PBXBuildFile section */
@@ -38,6 +40,8 @@
 		0E17FE621DE1E76F00E07A57 /* S3UploaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = S3UploaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E17FE661DE1E76F00E07A57 /* S3UploaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S3UploaderTests.swift; sourceTree = "<group>"; };
 		0E17FE681DE1E76F00E07A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E17FE711DE1EA6B00E07A57 /* UploadOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadOperation.swift; sourceTree = "<group>"; };
+		0E6398C51DE1F3B900594D42 /* pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic.png; sourceTree = "<group>"; };
 		2E3D7F282B67F465D2B067EB /* Pods_S3Uploader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_S3Uploader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39540E294516C7DF3F9525D2 /* Pods_S3UploaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_S3UploaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56750B901375677A34684E5A /* Pods-S3UploaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-S3UploaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-S3UploaderTests/Pods-S3UploaderTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +99,8 @@
 				0E17FE581DE1E76F00E07A57 /* Assets.xcassets */,
 				0E17FE5A1DE1E76F00E07A57 /* LaunchScreen.storyboard */,
 				0E17FE5D1DE1E76F00E07A57 /* Info.plist */,
+				0E17FE711DE1EA6B00E07A57 /* UploadOperation.swift */,
+				0E6398C51DE1F3B900594D42 /* pic.png */,
 			);
 			path = S3Uploader;
 			sourceTree = "<group>";
@@ -221,6 +227,7 @@
 			files = (
 				0E17FE5C1DE1E76F00E07A57 /* LaunchScreen.storyboard in Resources */,
 				0E17FE591DE1E76F00E07A57 /* Assets.xcassets in Resources */,
+				0E6398C61DE1F3B900594D42 /* pic.png in Resources */,
 				0E17FE571DE1E76F00E07A57 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E17FE541DE1E76F00E07A57 /* ViewController.swift in Sources */,
+				0E17FE721DE1EA6B00E07A57 /* UploadOperation.swift in Sources */,
 				0E17FE521DE1E76F00E07A57 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
