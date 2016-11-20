@@ -1,0 +1,5 @@
+target 'S3Uploader' do
+  pod 'AWS-S3'
+
+end
+

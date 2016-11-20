@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>AWSCore.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>AWSS3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-S3Uploader.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-S3UploaderTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>748BB18C982EBCBD49F33FF448A212E7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>81A6478227A3D0088FCA2DEA4B4A58F5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9E6E1DFB73C4D764335A4C02CC29ACC1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DEE8BA85B507F88EBA14E2DEEF88FEF5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
